@@ -1,0 +1,40 @@
+h1 {
+    background-color: aqua;
+    border: 1px black solid;
+    font-size: 40px;
+    line-height: 350%;
+}
+
+span {
+    background-color: burlywood;
+    display: inline-block;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+    margin: 200px;
+}
+
+section {
+    background-color: blueviolet;
+    width: 800px;
+    height: 800px;
+}
+
+div {
+    background-color: aliceblue;
+    width: 50%;
+    height: 50%;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.5em;
+}
+
+article {
+    font-size: 10px;
+}

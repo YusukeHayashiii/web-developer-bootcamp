@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>form demo</h1>
+    <form action="/dir">
+        <p>
+            <label for="username">ユーザー名</label>
+            <input id="username" type="text" placeholder="ユーザー名" name="username">
+        </p>
+        <p>
+            <input type="password" placeholder="パスワード" name="password">
+        </p>
+        <p>
+            <input type="color" name="color">
+        </p>
+        <p>
+            <input type="number" name="number">
+        </p>
+        <p>
+            <input type="month" name="month">
+        </p>
+        <button type="submit">
+            送信
+        </button>
+
+    </form>
+    <hr>
+    <form action="https://www.google.com/search?q=">
+        <input type="text" name="q">
+        <button>Google検索</button>
+    </form>
+
+    <h2>つづき</h2>
+    <form action="aa">
+        <p>
+            <input type="checkbox" name="agree_tos" id="agree">
+            <label for="agree">利用規約に同意</label>
+        </p>
+        <p>
+            <label for="xs">xs</label>
+            <input type="radio" name="size" id="xs" value="xs">
+            <label for="s">s</label>
+            <input type="radio" name="size" id="s" value="s">
+            <label for="m">m</label>
+            <input type="radio" name="size" id="m" value="m">
+        </p>
+        <button>送信</button>
+
+        <p>
+            <label for="cheeze">チーズ</label>
+            <input type="range" id="cheese" name="cheese_val" min="0" max="100" step="10">
+            <button>送信</button>
+        </p>
+    </form>
+
+<form action="/dummy">
+    <label for="first">名前</label>
+    <input type="text" id="first" name="first" required>
+    <p>
+        <label for="username">ユーザー名</label>
+        <input type="text" id="username" name="username" minlength="5" maxlength="20">
+    </p>
+    <button>送信</button>
+</form>
+
+</body>
+
+</html>

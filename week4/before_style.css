@@ -1,0 +1,56 @@
+/* 問題1 */
+.color-change {
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  background-color: blue;
+  transition: background-color 1s;
+}
+
+.color-change:hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+/* 問題2 */
+.rotate-box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  color: white;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* ここに追加してください */
+  transform: rotate(180deg);
+  
+}
+
+/* 問題3 */
+.rotate-box-hover {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    /* ここに追加してください */
+   transition: transform 3s;
+  }
+
+  .rotate-box-hover:hover {
+    transform: rotate(180deg);
+  }
+
+/* 問題4   */
+.scale-and-color {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  /* ここに追加してください */
+  transition: background-color 1s, scale 1s;
+}
+
+.scale-and-color:hover {
+  background-color: green;
+  scale: 1.1;
+}
+
