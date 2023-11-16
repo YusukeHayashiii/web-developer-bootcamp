@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスクの詳細</title>
+</head>
+
+<body>
+    <h1>タスク詳細</h1>
+    <p>ID: <%= item.id %>
+    </p>
+    <p>テキスト: <%= item.text %>
+    </p>
+    <p>説明 : <%= item.description%></p>
+    <a href="/todos">一覧へ戻る</a>
+    <a href="/todos/<%= item.id %>/edit">編集する</a>
+    <form method="POST" action="/todos/<%= item.id %>?_method=DELETE">
+        <button>完了</button>
+    </form>
+</body>
+
+</html>

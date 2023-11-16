@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスクの編集</title>
+</head>
+
+<body>
+    <h1>タスクの編集</h1>
+    <!-- 問題3 -->
+    <form action="/todos/<%= item.id %>?_method=PUT" method="POST">
+        <label for="name">タスク名</label>
+        <input type="text" id="name" name="name" placeholder="タスク名記入" value=<%= item.text %>><br>
+        <label for="content">詳細</label>
+        <input type="text" name="content" id="content" placeholder="タスクの詳細入力" value=<%= item.description %>><br>
+        <button type="submit">変更</button>
+    </form>
+    <a href="/todos/<%= item.id %>">キャンセル</a>
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>タスクの追加</title>
+</head>
+
+<body>
+    <h1>タスクを追加</h1>
+    <!-- 問題1 -->
+    <form action="/todos" method="POST">
+        <label for="name">タスク名</label>
+        <input type="text" id="name" name="name" placeholder="タスク名記入"><br>
+        <label for="content">詳細</label>
+        <input type="text" name="content" id="content" placeholder="タスクの詳細入力"><br>
+        <button type="submit">追加</button>
+    </form>
+    <a href="/todos/">キャンセル</a>
+</body>
+
+</html>
