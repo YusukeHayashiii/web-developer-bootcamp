@@ -1,0 +1,55 @@
+.backWhite {
+    background-color: white;
+    width: 30rem;
+    height: 32rem;
+}
+
+.login {
+    font-size: 25px;
+}
+
+.mail {
+    margin-right: 25px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+
+.github {
+    margin-right: 25px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+
+.LinkedIn {
+    margin-right: 5px;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+}
+
+.and{
+    font-size: 20px;
+}
+
+.password {
+    height: 50px;
+}
+
+.address {
+    height: 50px;
+}
+
+.btn {
+    width:360px;
+    height:50px;
+}
+
+.newRegister {
+    margin-right: 20px;
+}
+
+.forgeting {
+    margin-right: 20px;
+}
